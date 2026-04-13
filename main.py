@@ -1,4 +1,4 @@
-import module as m
+from module_test.module import suml as summing
 import test
 
-print(m.main())
+print(summing([1,2,3]))

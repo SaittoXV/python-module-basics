@@ -8,7 +8,7 @@ def suml(the_list):
   __counter += 1
   the_sum = 0
   for element in the_list:
-   the_sum += element
+   the_sum += element + 1
   return the_sum
 
 
